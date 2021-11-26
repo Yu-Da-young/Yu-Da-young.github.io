@@ -60,3 +60,8 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+comment:
+  provider:         "disqus"
+  disqus:
+    shortname:      "yudayoung" 

@@ -18,18 +18,18 @@ fork하는 법을 모르겠어서 git clone으로 로컬로 받아왔다.
 ## 댓글 기능 추가하기
 먼저 disqus에 가입하고 _confiig.yml에
 
-'''
-comment:
+```comment:
   provider:         "disqus"
   disqus:
     shortname:      "yudayoung" 
-'''
+```
 
 이 코드를 넣어주었다.
 
 그 후에는 disqus 홈페이지에서 code를 복사하여 _layouts/post.html 에 넣어주었다.
 _posts 에 있는 포스트 중 댓글 기능을 원하는 곳에
-'''
+
+```
 comments: true
-'''
+```
 라는 코드를 넣어주었다.

@@ -15,7 +15,7 @@ http://jekyllthemes.org/
 fork하는 법을 모르겠어서 git clone으로 로컬로 받아왔다.
 그 후 테마에 맞게 사진을 추가했고 readme.md를 읽으면서 넣어줘야 하는 코드를 넣고 _posts에 포스트도 작성해 보았다.
 
-## 댓글 기능 추가하기
+## 댓글 기능 추가
 먼저 disqus에 가입하고 _confiig.yml에
 
 ```comment:
@@ -33,3 +33,12 @@ _posts 에 있는 포스트 중 댓글 기능을 원하는 곳에
 comments: true
 ```
 라는 코드를 넣어주었다.
+
+## Google Analytics 추가
+blog에 상세과정을 설명하였다.
+
+## favicon 추가
+https://www.favicon-generator.org/ 에 들어가서 원하는 사진으로 favicon을 생성하였다.
+logo.ico란 폴더를 만들고 그 안에 링크에서 다운받은 파일 압축을 풀어주었다.
+그 후 _includes -> head.html href 부분에 파비콘이 있는 주소를 넣어주었다.
+

@@ -24,6 +24,8 @@ plainwhite:
   navigation:
     - title: Home
       url: "/index.html"
+    - title: Github
+      url: "https://github.com/Yu-Da-young/Yu-Da-young.github.io"
   condensed_mobile:
     - home
     - page

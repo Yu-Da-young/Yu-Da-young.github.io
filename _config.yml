@@ -21,6 +21,11 @@ plainwhite:
   portfolio_image: "assets/pioneer.png" # the path from the base directory of the site to the image to display (no / at the start)
   portfolio_image_dark: "assets/pioneer.png"
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
   condensed_mobile:
     - home
     - page
